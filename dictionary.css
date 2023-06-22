@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://englishlive.ef.com/blog/wp-content/uploads/sites/2/2013/06/black-and-white-dictionary-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+  
+.inputContainer, .searchContainer, .list {
+    margin-top: 20px;
+}
+  
+.inputContainer {
+    display: flex;
+    align-items: center;
+}
+  
+.inputContainer input[type="text"], .searchContainer input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.inputContainer input[type="submit"] {
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+}
+  
+.list {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+  
+.list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-flush {
+    color: white;
+}
+  
+.list li {
+    display: block;
+}
